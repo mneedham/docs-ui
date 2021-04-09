@@ -7,8 +7,8 @@
   --colour-grey-400: #cbd5e0;
   --colour-grey-500: #a0aec0;
   --colour-grey-600: #718096;
-  --colour-grey-700: #4a5568;
-  --colour-grey-800: #2d3748;
+  --colour-grey-700: #415464;
+  --colour-grey-800: #415464;
   --colour-grey-900: #1a202c;
   --colour-red-100: #fff5f5;
   --colour-red-200: #fed7d7;
@@ -82,6 +82,7 @@
   --colour-purple-700: #6b46c1;
   --colour-purple-800: #553c9a;
   --colour-purple-900: #44337a;
+  --colour-pink-purple: rgb(144, 62, 172);
   --colour-pink-100: #fff5f7;
   --colour-pink-200: #fed7e2;
   --colour-pink-300: #fbb6ce;
@@ -97,6 +98,8 @@
   --colour-kb: var(--colour-purple-600);
   --colour-training: var(--colour-pink-600);
 
+
+
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
   --body-font-weight: 400;
@@ -105,7 +108,7 @@
   --body-font-size--print: 0.9375em; /* 15px */
   --body-line-height: 1.5;
   --body-font-color: var(--colour-grey-700);
-  --body-font-family: "Open Sans", sans-serif;
+  --body-font-family: 'Montserrat',sans-serif;
   --body-font-weight-bold: 600;
   --monospace-font-family: "Roboto Mono", monospace;
   --monospace-font-weight-bold: 500;
@@ -116,13 +119,14 @@
   --panel-border-color: var(--colour-grey-200);
   --scrollbar-thumb-color: var(--colour-grey-100);
   /* navbar */
-  --navbar-background: var(--colour-grey-800);
-  --navbar-font-color: var(--colour-grey-100);
+  --navbar-background: var(--colour-white);
+  --navbar-font-color: var(--colour-grey-700);
   --navbar-font-weight: 400;
   --navbar_hover-background: transparent;
+  --navbar-button-background-color: var(--colour-pink-purple);
   --navbar-button-background: var(--colour-orange-600);
-  --navbar-button-border-color: var(--colour-blue-800);
-  --navbar-button-font-color: var(--colour-blue-100);
+  --navbar-button-border-color: var(--colour-grey-100);
+  --navbar-button-font-color: var(--colour-white);
   --navbar-menu-border-color: var(--panel-border-color);
   --navbar-menu-background: var(--colour-white);
   --navbar-menu-font-color: var(--body-font-color);
@@ -165,9 +169,6 @@
   --toc-border-color: var(--colour-grey-300);
   --toc-line-height: 1.4;
   --toc-bullet-color: var(--colour-blue-600);
-
-  /* kb metadata */
-  --kb-metadata-font-color: var(--colour-grey-700);
 
   /* admonitions */
   --caution-color: var(--colour-orange-600);

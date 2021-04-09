@@ -15,7 +15,6 @@ body {
   top: 0;
   width: 100%;
   word-wrap: break-word;
-  border-top: 4px solid var(--navbar-top-border);
   border-bottom: 1px solid var(--navbar-bottom-border);
   z-index: var(--z-index-navbar);
 }
@@ -393,33 +392,13 @@ body {
 .navbar .button {
   display: inline-flex;
   align-items: center;
-  background: var(--navbar-button-background);
+  background: var(--navbar-button-background-color);
   border: 1px solid var(--navbar-button-border-color);
-  border-radius: 0.15rem;
+  border-radius: 25px;
   height: 1.75rem;
   color: var(--navbar-button-font-color);
   padding: 0 0.75em;
   white-space: nowrap;
-}
-
-.navbar-item.training .navbar-dropdown {
-  border-top-color: var(--navbar-training-border);
-}
-
-.navbar-item.developer .navbar-dropdown {
-  border-top-color: var(--navbar-developer-border);
-}
-
-.navbar-item.docs .navbar-dropdown {
-  border-top-color: var(--navbar-docs-border);
-}
-
-.navbar-item.labs .navbar-dropdown {
-  border-top-color: var(--navbar-labs-border);
-}
-
-.navbar-item.kb .navbar-dropdown {
-  border-top-color: var(--navbar-kb-border);
 }
 
 @media screen and (min-width: 1024px) {

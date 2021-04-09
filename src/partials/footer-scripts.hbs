@@ -5,17 +5,9 @@
 <script src="https://d3js.org/d3-force.v2.min.js"></script> --}}
 
 {{#with (assets-path page)}}
-  {{#if (or (eq @root.page.layout 'training-certification') (eq @root.page.layout 'training-enrollment') (eq @root.page.layout 'training'))}}
-    <script src="//go.neo4j.com/js/forms2/js/forms2.min.js"></script>
-  {{/if}}
-  <script src="{{{this}}}/js/vendor/auth0.js"></script>
   <script src="{{{this}}}/js/site.js"></script>
-  {{!-- <script async src="{{{this}}}/js/vendor/gram.js"></script> --}}
   <script async src="{{{this}}}/js/vendor/highlight.js"></script>
   <script async src="{{{this}}}/js/vendor/search.js"></script>
   <script async src="{{{this}}}/js/vendor/image-zoom.js"></script>
 {{/with}}
 
-{{#if page.attributes.includedriver}}
-<script src="https://cdn.jsdelivr.net/npm/neo4j-driver@4.2.2/lib/browser/neo4j-web.min.js"></script>
-{{/if}}
