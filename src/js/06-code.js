@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
         button.innerHTML = copiedText
 
         setTimeout(function () {
-          button.style.width = ""
+          button.style.width = ''
           button.innerHTML = text
           button.classList.remove('btn-success')
         }, 1000)

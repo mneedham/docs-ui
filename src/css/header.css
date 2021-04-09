@@ -9,7 +9,7 @@ body {
 .navbar {
   background: var(--navbar-background);
   color: var(--navbar-font-color);
-  font-size: calc(16 / var(--rem-base) * 1rem);
+  font-size: calc(16 / var(--rem-base) * 1.1rem);
   height: var(--navbar-height);
   position: fixed;
   top: 0;
@@ -74,6 +74,11 @@ body {
 
   .navbar-end > a.navbar-item:hover,
   .navbar-end .navbar-link:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--navbar-link-underline-color);
+    -webkit-text-decoration-color: var(--navbar-link-underline-color);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
     background: var(--navbar_hover-background);
     color: var(--navbar-font-color);
   }

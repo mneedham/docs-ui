@@ -25,7 +25,7 @@
   --colour-orange-400: #f6ad55;
   --colour-orange-500: #ed8936;
   --colour-orange-600: #dd6b20;
-  --colour-orange-700: #c05621;
+  --colour-orange-700: #ff5200;
   --colour-orange-800: #9c4221;
   --colour-orange-900: #7b341e;
   --colour-yellow-100: #fffff0;
@@ -108,7 +108,7 @@
   --body-font-size--print: 0.9375em; /* 15px */
   --body-line-height: 1.5;
   --body-font-color: var(--colour-grey-700);
-  --body-font-family: 'Montserrat',sans-serif;
+  --body-font-family: 'Montserrat', sans-serif;
   --body-font-weight-bold: 600;
   --monospace-font-family: "Roboto Mono", monospace;
   --monospace-font-weight-bold: 500;
@@ -121,6 +121,7 @@
   /* navbar */
   --navbar-background: var(--colour-white);
   --navbar-font-color: var(--colour-grey-700);
+  --navbar-link-underline-color: var(--colour-orange-700);
   --navbar-font-weight: 400;
   --navbar_hover-background: transparent;
   --navbar-button-background-color: var(--colour-pink-purple);
@@ -194,9 +195,9 @@
   --heading-font-weight: normal;
   --alt-heading-font-weight: var(--body-font-weight-bold);
   --section-divider-color: var(--colour-grey-300);
-  --link-font-color: var(--colour-blue-600);
-  --link_hover-font-color: var(--colour-purple-600);
-  --link_visited-font-color: var(--colour-blue-800);
+  --link-font-color: var(--colour-grey-700);
+  --link_hover-font-color: var(--colour-grey-700);
+  --link_visited-font-color: var(--colour-grey-700);
   --link_unresolved-font-color: var(--important-color);
   --abstract-background: var(--colour-white);
   --abstract-font-color: var(--colour-grey-700);
@@ -266,6 +267,7 @@
   --toolbar-wrapper-width: 69rem;
   --doc-max-width: calc(720 / var(--rem-base) * 1rem);
   --doc-max-width--desktop: calc(980 / var(--rem-base) * 1rem);
+  --landing-page-max-width--desktop: 1200px;
 
   /* stacking */
   --z-index-nav: 1;

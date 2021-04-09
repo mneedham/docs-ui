@@ -388,11 +388,11 @@ body {
 }
 
 .doc .admonitionblock.note a {
-  color: var(--colour-grey-600);
+  color: var(--colour-grey-700);
 }
 
 .doc .admonitionblock.note a:hover {
-  color: var(--colour-grey-500);
+  color: var(--colour-grey-700);
 }
 
 .doc .admonitionblock.important {

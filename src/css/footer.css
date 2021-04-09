@@ -9,29 +9,30 @@ footer.footer {
 .footer .wrapper {
   display: flex;
   flex-direction: row;
-  max-width: var(--doc-max-width);
+  /* max-width: var(--doc-max-width); */
   margin: auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer .column {
-  width: 50%;
+  /* width: 50%;
   flex-grow: 1;
-  min-width: 180px;
-  padding: 1.5rem;
+  min-width: 180px; */
+  padding: 14px;
 }
 
 @media screen and (min-width: 1024px) {
   .footer .wrapper {
     flex: auto;
-    max-width: 1280px;
+    /* max-width: 1280px; */
   }
 
   .footer .column {
-    width: 25%;
+    /* width: 25%;
     flex-grow: 1;
-    flex-wrap: wrap;
-    padding: 1.5rem;
+    flex-wrap: wrap; */
+    padding: 14px;
   }
 }
 

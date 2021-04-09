@@ -17,22 +17,14 @@
 @import "print.css";
 
 /* Extras */
-@import "gram.css";
-@import "labels.css";
 @import "glossary.css";
 @import "landing.css";
 /* @import "tiles.css"; */
 /* @import "developer.css"; */
-@import "feedback.css";
 @import "themes.css";
 @import "code.css";
-@import "kb.css";
-@import "training.css";
-@import "search.css";
 @import "comments.css";
-@import "cookies.css";
 @import "image-zoom.css";
 @import "spinner.css";
 @import "fonts.css";
-@import "neo4j-docs.css";
-@import "newsletter.css";
+/* @import "neo4j-docs.css"; */
