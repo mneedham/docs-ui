@@ -1,21 +1,20 @@
     {{!-- Add additional meta tags here --}}
     <meta name="type" content="{{{ or page.attributes.type 'Developer Guide' }}}">
 
-    <meta property="og:site_name" content="FINBOURNE" />
-    <meta property="article:publisher" content="https://www.facebook.com/neo4j.graph.database" />
+    <meta property="og:site_name" content="FINBOURNE" />    
     {{#unless page.attributes.player}}
     <meta name="twitter:card" content="summary_large_image" />
     {{/unless}}
     <meta name="twitter:creator" content="@finbourne" />
-    <meta name="twitter:site" content="@neo4j" />
+    <meta name="twitter:site" content="@finbourne" />
     <meta property="og:type" content="{{{ or page.attributes.postttype 'article' }}}" />
     <meta property="og:title" content="{{#with (or page.attributes.ogtitle page.title) }}{{{detag this}}}{{/with}} - {{#with page.component.title}}{{{detag this}}}{{/with}}" />
     <meta property="og:locale" content="{{{ or page.attributes.locale 'en_US' }}}">
-    {{#with (or page.attributes.ogimage 'https://dist.neo4j.com/wp-content/uploads/20190822071359/neo4j-database-meta-image.png' )}}
+    {{#with (or page.attributes.ogimage 'https://www.finbourne.com/hubfs/Lusid_social_banner.png' )}}
     <meta property="og:image" content="{{{this}}}" />
     {{/with}}
     {{#with page.description}}
     <meta property="og:description" content="{{this}}">
     {{/with}}
-    <meta property="og:url" content="https://neo4j.com{{ page.attributes.canonical-root }}{{ page.url }}">
+    <meta property="og:url" content="https://developer.finbourne.com{{ page.attributes.canonical-root }}{{ page.url }}">
 
