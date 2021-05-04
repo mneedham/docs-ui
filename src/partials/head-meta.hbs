@@ -8,7 +8,7 @@
     <meta name="twitter:creator" content="@finbourne" />
     <meta name="twitter:site" content="@finbourne" />
     <meta property="og:type" content="{{{ or page.attributes.postttype 'article' }}}" />
-    <meta property="og:title" content="{{#with (or page.attributes.ogtitle page.title) }}{{{detag this}}}{{/with}} - {{#with page.component.title}}{{{detag this}}}{{/with}}" />
+    <meta property="og:title" content="{{{detag (or page.title defaultPageTitle)}}}{{#with site.title}} - {{this}}{{/with}}" />
     <meta property="og:locale" content="{{{ or page.attributes.locale 'en_US' }}}">
     {{#with (or page.attributes.ogimage 'https://www.finbourne.com/hubfs/Lusid_social_banner.png' )}}
     <meta property="og:image" content="{{{this}}}" />
