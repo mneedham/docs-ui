@@ -188,6 +188,32 @@ body {
   display: block;
 }
 
+.navbar-item input.search {
+  border-radius: 25px;
+  height: 1.75rem;
+  padding-left: 1.75rem;
+  border: 1px solid var(--navbar-font-color);
+  width: 7rem;
+}
+
+.navbar-item input.search:focus {
+  outline: none;
+  width: 10rem;
+  transition: 0.5s;
+}
+
+.navbar-item .search-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 1.75rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  pointer-events: none;
+  color: var(--navbar-font-color);
+}
+
 @media screen and (min-width: 1024px) {
   .navbar-dropdown {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
