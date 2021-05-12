@@ -134,6 +134,7 @@ html.is-clipped--nav {
 
 .nav-menu .nav-item .nav-item a {
   padding: 0.1rem 0;
+  /*color: var(--colour-pink-purple);*/
 }
 
 .nav-list {
@@ -208,6 +209,14 @@ html.is-clipped--nav {
 .is-current-page > .nav-link,
 .is-current-page > .nav-text {
   font-weight: var(--nav_active-font-weight);
+}
+
+.nav-menu .nav-item .nav-list .nav-item[data-depth="1"]:first-child {
+  color: var(--colour-pink-purple);
+}
+
+.nav-menu .nav-item[data-depth="0"]:not(:first-child) {
+  padding-top: 10px;
 }
 
 .nav-item .nav-item::before,
